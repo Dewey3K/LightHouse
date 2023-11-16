@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">LightHouse</string>
+    <string name="preset_header">Presets Page</string>
+    <string name="input_hint">Type in your text!</string>
+    <string name="send_button">Transmit</string>
+    <string name="go_main">Go to Home Page</string>
+    <string name="go_presents">Go to Presets</string>
+    <string name="go_info">Go to info</string>
+    <string name="check_orientation">Check Orientation</string>
+    <string name="add_preset">Add Preset</string>
+    <string name="info_header">Information Page</string>
+    <string name="speed_box">Speed</string>
+
+
+    <string name="add_request">Set Your New Request!</string>
+    <string name="preset_hint">enter preset</string>
+    <string name="cancel">Cancel</string>
+    <string name="set_request">Add Request</string>
+
+    <string name="speed_slider">Speed Slider</string>
+    <string name="delete_button">Delete Preset</string>
+    <string name="app_home">Home Title</string>
+
+    <string name="speed_display">%s Seconds</string>
+
+</resources>

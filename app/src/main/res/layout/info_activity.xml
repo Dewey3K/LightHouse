@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+
+    <TextView
+        android:id="@+id/infoTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/info_header"
+        style="@style/title"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+    
+    <TextView
+        android:id="@+id/speedText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/speed_box"
+        android:textSize="28sp"
+        android:layout_margin="20dp"
+        app:layout_constraintTop_toBottomOf="@id/infoTitle"
+        app:layout_constraintLeft_toLeftOf="parent"
+        />
+
+    <SeekBar
+        android:id="@+id/speedSlider"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="30dp"
+        android:progress="50"
+        android:indeterminate="false"
+        app:layout_constraintTop_toBottomOf="@id/infoTitle"
+        app:layout_constraintLeft_toRightOf="@id/speedText"
+        android:contentDescription="@string/speed_slider"
+        />
+
+    <TextView
+        android:id="@+id/speedValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginStart="50dp"
+        app:layout_constraintTop_toBottomOf="@id/speedSlider"
+        app:layout_constraintLeft_toLeftOf="@id/speedSlider"
+        />
+
+
+
+    <Button
+        android:id="@+id/goMain"
+        style="@style/nav_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/go_main"
+        android:layout_margin="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        />
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

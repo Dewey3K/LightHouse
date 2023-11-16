@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- code from a3 navigation_buttons.xml -->
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <Button
+        android:id="@+id/pair_name"
+        style="@style/button"
+        android:background="@color/purple_700"
+        android:layout_width="0dp"
+        android:layout_weight=".95" />
+
+    <ImageButton
+        android:id="@+id/pair_delete"
+        style="@style/button"
+        android:background="@color/purple_700"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.05"
+        android:tint="@color/white"
+        app:srcCompat="@drawable/delete"
+        android:contentDescription="@string/delete_button"/>
+
+</TableRow>
